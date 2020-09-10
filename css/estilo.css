@@ -1,12 +1,43 @@
-body{
-    
-}
 .superior{
     height: 18em;
     width: 22em;
     background-color: #c3beba;
     border-top-right-radius: 0.4em;
     border-top-left-radius: 0.4em;
+    display: flex;
+    flex-direction: column;
+}
+.pantalla{
+    height: 5em;
+    background-color: blue;
+    border: 2px solid
+}
+.pantalla1{
+    height: 1em;
+    background-color: blue;
+    border: 2px solid;
+    display: flex;
+    flex-direction: row;
+}
+.columnaPantalla1{
+    width: 2em;
+    background-color: rgb(253, 253, 253);
+    border: 1px solid;
+}
+.columnaPantalla2{
+    width: 18em;
+    background-color: rgb(253, 253, 253);
+    border: 1px solid;
+}
+.columnaPantalla3{
+    width: 2em;
+    background-color: rgb(253, 253, 253);
+    border: 1px solid;
+}
+.pantalla2{
+    height: 1em;
+    background-color: blue;
+    border: 2px solid
 }
 .inferior{
     height: 18em;

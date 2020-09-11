@@ -1,3 +1,6 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
 /*Contenedor general centrado en pantalla*/
 .general{
     height: 40em;
@@ -7,7 +10,7 @@
 }
 /*Parte superior de la consola (pantalla y lineas superiores)*/
 .superior{
-    height: 18em;
+    height: 17em;
     width: 22em;
     background-color: #ede4db;
     border-top-right-radius: 0.4em;
@@ -17,7 +20,7 @@
 }
 /*Area Pantalla*/
 .pantalla{
-    height: 18em;
+    height: 15em;
     width: 22em;
     display:flex;
     justify-content: center;
@@ -48,17 +51,27 @@
     height:11.5em ;
     display:flex;
 }
-.ledBatery{
+/*Divido el espacio de la izquierda en 3 filas*/
+.lcdIzq{
     width:3.5em ;
+    display: flex;
+    flex-direction: column;
+}
+.led{
+    height: 11.5em;
+    padding-left: 0.5em;
+}
+.ledBateria{
+    width: 2.5em;
 }
 .lcd{
     width:11em ;
     background-color:#283b3f;
 }
-/*Divido*/
 .lcdDerecha{
     width:3em ;
 }
+
 .divisionPantalla3{
     height:1.5em ;
 }
@@ -101,6 +114,37 @@
     background-color: #ede4db;
     border-bottom-right-radius: 4em;
     border-bottom-left-radius: 0.4em;
-    
+    display: flex;
+    flex-direction: column;
 }
-
+/*Divido zona inferior en 3 filas*/
+.zonaBotones1{
+    height: 2em;
+    display:flex;
+    flex-direction: row;
+}
+.logoNintendo1{
+    width: 2em;
+}
+.logoNintendo2{
+    width: 18em;
+}
+.fotoLogo{
+    width: 12em;
+}
+.zonaBotones2{
+    height: 9em;
+    border: 1px solid;
+    display:flex;
+}
+.controles1{
+    width: 2em;
+    border: 1px solid
+}
+.controles2{
+    width: 18em;
+    border: 1px solid
+}
+.zonaBotones3{
+    height: 5em;
+}

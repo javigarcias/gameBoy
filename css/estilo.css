@@ -1,18 +1,21 @@
+/*Contenedor general centrado en pantalla*/
 .general{
     height: 40em;
     display:flex;
     justify-content: center;
     align-items: center;
 }
+/*Parte superior de la consola (pantalla y lineas superiores)*/
 .superior{
     height: 18em;
     width: 22em;
-    background-color: #c3beba;
+    background-color: #ede4db;
     border-top-right-radius: 0.4em;
     border-top-left-radius: 0.4em;
     display: flex;
     flex-direction: column;
 }
+/*Area Pantalla*/
 .pantalla{
     height: 18em;
     width: 22em;
@@ -22,12 +25,44 @@
 .interiorPantalla{
     height: 15em;
     width: 18em;
-    background-color:#897f79;
+    background-color:#6d6769;
     border-top-left-radius: 0.5em;
     border-top-right-radius: 0.5em;
     border-bottom-left-radius: 0.5em;
     border-bottom-right-radius: 2.5em
 }
+/*Divido el interior de la pantalla en 3 filas*/
+.divisionPantalla1{
+    height:1.5em ;
+    display:flex;
+    justify-content: center;
+    justify-items: center;
+}
+.lineas{
+    height: 1em ;
+    width: 16em;
+    margin-top: 0.2em;
+}
+/*Divido la fila central donde va el LCD en 3 columnas*/
+.divisionPantalla2{
+    height:11.5em ;
+    display:flex;
+}
+.ledBatery{
+    width:3.5em ;
+}
+.lcd{
+    width:11em ;
+    background-color:#283b3f;
+}
+/*Divido*/
+.lcdDerecha{
+    width:3em ;
+}
+.divisionPantalla3{
+    height:1.5em ;
+}
+/*Parte superior consola con las lineas y boton de encendido*/
 .pantalla1{
     height: 1em;
     border: ;
@@ -40,23 +75,22 @@
 }
 .columnaPantalla2{
     width: 18em;
-    background-color: #c3beba;
+    background-color: #ede4db;
     display: flex;
 }
 .encendido{
     width: 3em;
     height: 0.7em;
-    background-color: #e8ded7;
+    background-color: #c8c1ba;
     border-radius: 0.5em;
     margin-top: 0.1em;
     margin-left: 0.4em;
-    
-    
 }
 .columnaPantalla3{
     width: 2em;
     border-left: 0.2em  gray solid
 }
+/*Espacio entre pantalla y linea superior*/
 .pantalla2{
     height: 1em;
     border-top: 0.2em gray solid
@@ -64,15 +98,9 @@
 .inferior{
     height: 18em;
     width: 22em;
-    background-color: #c3beba;
+    background-color: #ede4db;
     border-bottom-right-radius: 4em;
     border-bottom-left-radius: 0.4em;
     
 }
-.fondo{
-    display: flex;
-    flex-direction: row;
-}
-.dosicion{
-    width: 10em;
-}]
+

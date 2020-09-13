@@ -167,10 +167,47 @@
 }
 .cruz1{
     width: 2em;
+    display: flex;
+    flex-direction: column;
 }
+.botonIzq1{
+    height: 2em;
+}
+/*BOTON IZQUIERDA*/
+.botonIzq2{
+    height: 2em;
+    border-top-left-radius: 0.3em;
+    border-bottom-left-radius: 0.3em;
+    background-color: black;
+}
+/*BOTONES ARRIBA Y ABAJO*/
 .cruz2{
     border-radius: 0.3em;
     width: 2em;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+.circuloCruz1{
+    height: 2em;
+ 
+}
+.circuloCruz2{
+    height: 2em;
+    border-radius: 1em;
+    background: linear-gradient(to bottom right, black, gray)
+}
+.cruz3{
+    width: 2em;
+}
+.botonDer1{
+    height: 2em;
+}
+/*BOTON DERECHA*/
+.botonDer2{
+    height: 2em;
+    border-top-right-radius: 0.3em;
+    border-bottom-right-radius: 0.3em;
     background-color: black;
 }
 .botones2{

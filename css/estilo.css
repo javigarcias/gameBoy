@@ -221,7 +221,6 @@
 }    
 .zonaBotonA{
     width: 3.5em;
-    border: 1px solid lawngreen;
     display: flex;
     flex-direction: column;
 }
@@ -240,9 +239,23 @@
 }
 .botonB{
     width: 3.5em;
-    border: 1px solid lawngreen;
+    display: flex;
+    flex-direction: column;
 }
-.zonaBotones3{
+.boton1{
+    height: 3.5em;
+    background-color:;
+}
+.boton3{
+    height:3.5em;
+    background-color: #8d2f4a;
+    margin-top: 0.6em;
+    border-radius: 3em;
+    background: linear-gradient(to bottom right, #8d2f4a, #a8586f)
+
+
+}
+.zonaBotones4{
     height: 7em;
     border: 1px solid hotpink;
 }

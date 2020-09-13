@@ -139,12 +139,48 @@
 }
 .controles1{
     width: 2em;
-    border: 1px solid
+    border: px solid;
 }
 .controles2{
     width: 18em;
-    border: 1px solid
+    border: 1px solid;
+    display:flex;
 }
+.botones1{
+    width: 6em;
+    border: px solid;
+    display: flex;
+    flex-direction: column;
+}
+.direccion1{
+    height: 2em;
+    border: px solid;
+}
+.direccion2{
+    height: 6em;
+    border: px solid;
+}
+.botonDireccion{
+    height: 6em;
+    background-color:;
+    display: flex;
+}
+.cruz1{
+    width: 2em;
+}
+.cruz2{
+    border-radius: 0.3em;
+    width: 2em;
+    background-color: black;
+}
+.botones2{
+    width: 5em;
+    border: 1px solid;
+}
+.botones3{
+    width: 7em;
+    border: 1px solid;
+}    
 .zonaBotones3{
     height: 5em;
 }

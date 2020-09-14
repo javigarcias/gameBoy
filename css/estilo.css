@@ -253,10 +253,50 @@
     margin-top: 1.7em;
     border-radius: 3em;
     background: linear-gradient(to bottom right, #8d2f4a, #a8586f)
-
+}
+.zonaBotones3{
+    height: 7em;
+    border: 2px solid hotpink;
+    display: flex;
+}
+.areaBotones1{
+    width: 6.5em;
+    border: 1px solid green;
+}
+.areaBotones2{
+    width: 6.5em;
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+}
+.areaBotones3{
+    width: 8.5em;
+    border: 1px solid green;
+}
+.botonSelect1{
+    height: 2em;
+    border: 1px solid tomato;
+}
+.botonSelect2{
+    height: 0.5em;
+    border: 1px solid tomato;
+    display: flex;
+}
+.botonSelect3{
+    height: 2em;
+    border: 1px solid tomato;
+}
+.botonSelect{
+    width: 3em;
+    background:linear-gradient(to bottom, white, grey);
+    border-radius: 0.2em;
+    transform: rotate(160deg);
 
 }
-.zonaBotones4{
-    height: 7em;
-    border: 1px solid hotpink;
+.botonStart{
+    width: 3em;
+    background:linear-gradient(to bottom, white, grey);
+    border-radius: 0.5em;
+    transform: rotate(160deg);
+
 }

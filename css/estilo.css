@@ -57,9 +57,31 @@
     display: flex;
     flex-direction: column;
 }
-.led{
-    height: 11.5em;
+/*Led Rojo encendido*/
+.led1{
+    height: 0.9em;
+    width: 0.5em;
+    margin-top: 3em;
+    margin-left: 1.2em;
+    margin-bottom: 0.5em;
+    border-radius: 2em;
+    background: red;
+}
+.led2{
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    
+}
+.textoBateria{
+    font-size: 0.5em;
+    color: white;
+    margin-top: -0.1em;
+}
+.led3{
+    height: 10em;
     padding-left: 0.5em;
+}
 }
 .ledBateria{
     width: 2.5em;
@@ -101,7 +123,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
     border-radius: 1em;
 }
 .onOff{

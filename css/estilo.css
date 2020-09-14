@@ -218,7 +218,7 @@
 }
 .boton1{
     height: 3.5em;
-    background-color:;
+    background-color;
 }
 .boton2{
     height:3em;
@@ -229,6 +229,13 @@
     border-radius: 3em;
     background: linear-gradient(to bottom right, #8d2f4a, #a8586f)
 }
+.letraB{
+    margin-top: 3em;
+    margin-left: 2.5em;
+    transform: rotate(-30deg);
+    font-weight: bold;
+    color: #2f338f
+}
 .botonB{
     width: 3.5em;
     display: flex;
@@ -236,7 +243,6 @@
 }
 .boton1{
     height: 3.5em;
-    background-color:;
 }
 .boton3{
     height:3em;
@@ -245,6 +251,13 @@
     margin-top: 1.7em;
     border-radius: 3em;
     background: linear-gradient(to bottom right, #8d2f4a, #a8586f)
+}
+.letraA{
+    margin-top: 3em;
+    margin-left: 2.5em;
+    transform: rotate(-30deg);
+    font-weight: bold;
+    color: #2f338f
 }
 .zonaBotones3{
     height: 7em;
@@ -258,6 +271,23 @@
     display: flex;
     flex-direction: column;
 }
+.areaPhone{
+    height: 2em;
+    display: flex;
+}
+.phone1{
+    width: 1.5em;
+    display: flex;
+}
+.phone2{
+    width: 4em;
+    height: 1em;
+    background:linear-gradient(to bottom, #ede4db,  #aaa7a8);
+    display: flex;
+    border-radius: 1em;
+    border: 0.1em solid #9e9b9c;
+    margin-top:0.8em;
+}      
 /*Speaker*/
 .areaBotones3{
     width: 9em;
@@ -336,20 +366,22 @@
 .letrasSelect{
     width: 3em;
     font-size: 0.5em;
-    color: blue;
+    color: #2f338f;
     transform: rotate(-20deg);
     margin-left: 1.5em;
     margin-top: -0.7em;
     letter-spacing: 0.3em;
+    font-weight: bold;
 }
 .letrasStart{
     width: 3em;
     font-size: 0.5em;
-    color: blue;
+    color: #2f338f;
     transform: rotate(-20deg);
     margin-left: 3.4em;
     margin-top: -0.7em;
     letter-spacing: 0.3em;
+    font-weight: bold;
 }
 /*Botones Select y Start*/
 .botonSelect{

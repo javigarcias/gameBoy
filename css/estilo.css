@@ -279,14 +279,27 @@
     width: 1.5em;
     display: flex;
 }
+/*Area relieve Phone*/
 .phone2{
     width: 4em;
-    height: 1em;
-    background:linear-gradient(to bottom, #ede4db,  #aaa7a8);
+    height: 0.7em;
+    background:linear-gradient(to bottom, #ede4db,  #949192);
     display: flex;
     border-radius: 1em;
     border: 0.1em solid #9e9b9c;
     margin-top:0.8em;
+    margin-right: 1.6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.letrasPhone{
+    font-size: 0.5em;
+    font-weight: bold;
+    color: #ede4db;
+    
+
+    
 }      
 /*Speaker*/
 .areaBotones3{

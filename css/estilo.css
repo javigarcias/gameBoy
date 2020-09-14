@@ -270,33 +270,49 @@
     flex-direction: column;
 }
 .areaBotones3{
-    width: 8.5em;
+    width: 9em;
     border: 1px solid green;
 }
 .botonSelect1{
     height: 2em;
-    border: 1px solid tomato;
 }
 .botonSelect2{
     height: 0.5em;
-    border: 1px solid tomato;
     display: flex;
 }
+/*Letras Select y Start*/
 .botonSelect3{
-    height: 2em;
-    border: 1px solid tomato;
+    height: 3em;
+    display: flex;
 }
+.letrasSelect{
+    width: 3em;
+    font-size: 0.5em;
+    color: blue;
+    transform: rotate(-20deg);
+    margin-left: 1.5em;
+    margin-top: -0.7em;
+    letter-spacing: 0.3em;
+}
+.letrasStart{
+    width: 3em;
+    font-size: 0.5em;
+    color: blue;
+    transform: rotate(-20deg);
+    margin-left: 3.4em;
+    margin-top: -0.7em;
+    letter-spacing: 0.3em;
+}
+/*Botones Select y Start*/
 .botonSelect{
     width: 3em;
     background:linear-gradient(to bottom, white, grey);
     border-radius: 0.2em;
     transform: rotate(160deg);
-
 }
 .botonStart{
     width: 3em;
     background:linear-gradient(to bottom, white, grey);
     border-radius: 0.5em;
     transform: rotate(160deg);
-
 }
